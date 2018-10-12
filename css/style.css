@@ -5,6 +5,12 @@ html{
 	padding: 0;
 }
 
+.btn{
+	display:block;
+    color:white;
+	width:40px;
+}
+
 body{
 
 	height:100%;
