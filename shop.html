@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <title>Store Manger</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <script src="js/script.js"></script>
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+  <link rel="shortcut icon" href="image/cart_r.png" type="image/png"/>
+</head>
+<body>
+
+  <header>
+    <div class="top_div">
+      <h2>Store Manager</h2>
+    </div>
+    <nav>
+      <ul class="grid-container-six">
+        <li class="background-color-primary"> <a href='shop.html'>Cart</a></li>
+        <li class="background-color-primary"> <a href='sales_record_attendant.html'>Sales Record</a></li>
+        <li class="background-color-primary"> <a href='products_attendant.html'>Products</a></li>
+        <li class="background-color-primary"> <a href='bookmark.html'>Bookmark</a></li>
+        <li class="background-color-primary"> <a href='profile.html'>Profile</a></li>
+        <li class="background-color-primary"> <a href='index.html'>Log out</a></li>
+      </ul>
+    </nav>
+	
+  </header>
+  <section>
+    
+     <h1>Cart</h1>
+
+      <div class="div_cart">
+        <div>
+           <select class="filter">
+      <option value="" disabled selected>Select Category</option>
+      <option value="1">All</option>
+      <option value="2">Beverages</option>
+      <option value="3">Stationery</option>
+      <option value="4">Cosmetics</option>
+      
+    </select>
+    
+        <form id="cart_form">
+          <input type="text" id="product_search" placeholder="Product"> &nbsp;<label>Price:</label><span> &#8358; 100</span>
+          &nbsp;<label>QTY</label><select>
+              <option value='1'>1</option>
+              <option value='2'>2</option>
+              <option value='3'>3</option>
+              <option value='4'>4</option>
+          </select>
+          &nbsp;
+          <button type="submit" class="background-color-primary add_to_cart button_text"  >ADD To CART</button>
+        </form>
+
+      <span class="error"></span>
+
+</div>
+    </div>
+    <br>
+    
+
+    <table>
+      <thead><tr><td>Product</td><td>Unit Price</td><td>Quantity</td><td colspan="2">Total Price(&#8358;)</td></tr></thead>
+      <tbody>
+          <tr><td >Transaction ID:</td><td>cs90877</td><td>Total:</td><td colspan="2">&#8358; 100</td></tr>
+          <tr><td>Apple</td><td>100</td><td>50</td><td>5000</td><td><button class="trash"></button></td></tr>
+          <tr><td>Apple</td><td>100</td><td>50</td><td>5000</td><td><button class="trash"></button></td></tr>
+          <tr><td>Apple</td><td>100</td><td>50</td><td>5000</td><td><button class="trash"></button></td></tr>
+          <tr><td>Apple</td><td>100</td><td>50</td><td>5000</td><td><button class="trash"></button></td></tr>
+          <tr><td>Apple</td><td>100</td><td>50</td><td>5000</td><td><button class="trash"></button></td></tr>
+          <tr><td>Apple</td><td>100</td><td>50</td><td>5000</td><td><button class="trash"></button></td></tr>
+          <tr><td>Apple</td><td>100</td><td>50</td><td>5000</td><td><button class="trash"></button></td></tr>
+          <tr><td ></td><td> <select id="payment_type"><option value="1">Cash</option><option value="2">Credit Card</option></select></td><td><input type="text" id="slip_info"></td><td colspan="2"><button  class="button_text checkout">Checkout</button></td></tr>
+      </tbody>
+    </table>
+
+  </section>
+  <footer class="background-color-primary">&copy; 2018</footer>
+
+
+</body>
+</html>
+
