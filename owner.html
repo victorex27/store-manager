@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
-  <script src="js/script.js"></script>
+ 
   <link rel="stylesheet" href="css/style.css" type="text/css">
   <link rel="shortcut icon" href="image/cart_r.png" type="image/png"/>
 </head>
@@ -22,7 +22,7 @@
         <li class="background-color-primary"> <a href='owner.html'>ADMIN</a></li>
       </ul>
     </nav>
-	
+  
   </header>
   <section>
     
@@ -33,8 +33,10 @@
         <form id="attendant_login">
           <input type="text" id="username" placeholder="USERNAME"><br>
           <input type="password" id="password" placeholder="PASSWORD"><br>
-          <button type="submit" class="background-color-primary door button_text" id="admin_log_in">Log In</button>
+         
         </form>
+    
+     <button type="button" class="background-color-primary door button_text" id="admin_log_in">Log In</button>
 
       
 
@@ -43,13 +45,7 @@
   </section>
   <footer class="background-color-primary">&copy; 2018</footer>
 
-<script type="text/javascript">
-
-    document.getElementById("admin_log_in").onclick = function () {
-      
-        window.location.href = "/attendants.html";
-    };
-</script>
+<script src="js/script.js" defer></script>
 </body>
 </html>
 
