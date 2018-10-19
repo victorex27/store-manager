@@ -1,0 +1,149 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'ejs',
+1 verbose cli   '--',
+1 verbose cli   'save',
+1 verbose cli   '-dev' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.1
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData ejs
+8 silly fetchPackageMetaData save
+9 silly fetchPackageMetaData -dev
+10 silly fetchNamedPackageData ejs
+11 silly mapToRegistry name ejs
+12 silly mapToRegistry using default registry
+13 silly mapToRegistry registry https://registry.npmjs.org/
+14 silly mapToRegistry data Result {
+14 silly mapToRegistry   raw: 'ejs',
+14 silly mapToRegistry   scope: null,
+14 silly mapToRegistry   escapedName: 'ejs',
+14 silly mapToRegistry   name: 'ejs',
+14 silly mapToRegistry   rawSpec: '',
+14 silly mapToRegistry   spec: 'latest',
+14 silly mapToRegistry   type: 'tag' }
+15 silly mapToRegistry uri https://registry.npmjs.org/ejs
+16 silly fetchNamedPackageData save
+17 silly mapToRegistry name save
+18 silly mapToRegistry using default registry
+19 silly mapToRegistry registry https://registry.npmjs.org/
+20 silly mapToRegistry data Result {
+20 silly mapToRegistry   raw: 'save',
+20 silly mapToRegistry   scope: null,
+20 silly mapToRegistry   escapedName: 'save',
+20 silly mapToRegistry   name: 'save',
+20 silly mapToRegistry   rawSpec: '',
+20 silly mapToRegistry   spec: 'latest',
+20 silly mapToRegistry   type: 'tag' }
+21 silly mapToRegistry uri https://registry.npmjs.org/save
+22 silly fetchOtherPackageData -dev
+23 silly cache add args [ '-dev', null ]
+24 verbose cache add spec -dev
+25 silly cache add parsed spec Result {
+25 silly cache add   raw: '-dev',
+25 silly cache add   scope: null,
+25 silly cache add   escapedName: null,
+25 silly cache add   name: null,
+25 silly cache add   rawSpec: '-dev',
+25 silly cache add   spec: 'C:\\Users\\USER\\storemanager\\-dev',
+25 silly cache add   type: 'local' }
+26 error addLocal Could not install C:\Users\USER\storemanager\-dev
+27 silly fetchPackageMetaData Error: ENOENT: no such file or directory, open 'C:\Users\USER\storemanager\-dev'
+27 silly fetchPackageMetaData     at Error (native)
+27 silly fetchPackageMetaData  error for -dev { Error: ENOENT: no such file or directory, open 'C:\Users\USER\storemanager\-dev'
+27 silly fetchPackageMetaData     at Error (native)
+27 silly fetchPackageMetaData   errno: -4058,
+27 silly fetchPackageMetaData   code: 'ENOENT',
+27 silly fetchPackageMetaData   syscall: 'open',
+27 silly fetchPackageMetaData   path: 'C:\\Users\\USER\\storemanager\\-dev' }
+28 verbose request uri https://registry.npmjs.org/ejs
+29 verbose request no auth needed
+30 info attempt registry request try #1 at 6:52:14 AM
+31 verbose request id 647d106786e8d2bb
+32 verbose etag W/"17682c484328abcd2ddf27bad35a86eb"
+33 verbose lastModified Sat, 26 May 2018 22:51:16 GMT
+34 http request GET https://registry.npmjs.org/ejs
+35 verbose request uri https://registry.npmjs.org/save
+36 verbose request no auth needed
+37 info attempt registry request try #1 at 6:52:14 AM
+38 verbose etag W/"570eaef49b9a15aff2bfa7385eba99e0"
+39 verbose lastModified Sun, 27 May 2018 16:38:18 GMT
+40 http request GET https://registry.npmjs.org/save
+41 http 304 https://registry.npmjs.org/ejs
+42 verbose headers { date: 'Thu, 18 Oct 2018 05:52:20 GMT',
+42 verbose headers   connection: 'keep-alive',
+42 verbose headers   'set-cookie': [ '__cfduid=d37a9cce7cebec120752d624c96f445c01539841940; expires=Fri, 18-Oct-19 05:52:20 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+42 verbose headers   'cf-cache-status': 'HIT',
+42 verbose headers   'cache-control': 'max-age=300',
+42 verbose headers   'cf-ray': '46b8bcfe6f62347c-LHR',
+42 verbose headers   etag: '"17682c484328abcd2ddf27bad35a86eb"',
+42 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+42 verbose headers   'last-modified': 'Sat, 26 May 2018 22:51:16 GMT',
+42 verbose headers   vary: 'accept-encoding, accept',
+42 verbose headers   server: 'cloudflare' }
+43 silly get cb [ 304,
+43 silly get   { date: 'Thu, 18 Oct 2018 05:52:20 GMT',
+43 silly get     connection: 'keep-alive',
+43 silly get     'set-cookie': [ '__cfduid=d37a9cce7cebec120752d624c96f445c01539841940; expires=Fri, 18-Oct-19 05:52:20 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+43 silly get     'cf-cache-status': 'HIT',
+43 silly get     'cache-control': 'max-age=300',
+43 silly get     'cf-ray': '46b8bcfe6f62347c-LHR',
+43 silly get     etag: '"17682c484328abcd2ddf27bad35a86eb"',
+43 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+43 silly get     'last-modified': 'Sat, 26 May 2018 22:51:16 GMT',
+43 silly get     vary: 'accept-encoding, accept',
+43 silly get     server: 'cloudflare' } ]
+44 verbose etag https://registry.npmjs.org/ejs from cache
+45 verbose get saving ejs to C:\Users\USER\AppData\Roaming\npm-cache\registry.npmjs.org\ejs\.cache.json
+46 verbose correctMkdir C:\Users\USER\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+47 http 304 https://registry.npmjs.org/save
+48 verbose headers { date: 'Thu, 18 Oct 2018 05:52:20 GMT',
+48 verbose headers   connection: 'keep-alive',
+48 verbose headers   'set-cookie': [ '__cfduid=d065789dc0bb630f65ffaf226907669c71539841940; expires=Fri, 18-Oct-19 05:52:20 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+48 verbose headers   'cf-cache-status': 'HIT',
+48 verbose headers   'cache-control': 'max-age=300',
+48 verbose headers   'cf-ray': '46b8bcfece086a91-LHR',
+48 verbose headers   etag: '"570eaef49b9a15aff2bfa7385eba99e0"',
+48 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+48 verbose headers   'last-modified': 'Sun, 27 May 2018 16:38:18 GMT',
+48 verbose headers   vary: 'accept-encoding, accept',
+48 verbose headers   server: 'cloudflare' }
+49 silly get cb [ 304,
+49 silly get   { date: 'Thu, 18 Oct 2018 05:52:20 GMT',
+49 silly get     connection: 'keep-alive',
+49 silly get     'set-cookie': [ '__cfduid=d065789dc0bb630f65ffaf226907669c71539841940; expires=Fri, 18-Oct-19 05:52:20 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+49 silly get     'cf-cache-status': 'HIT',
+49 silly get     'cache-control': 'max-age=300',
+49 silly get     'cf-ray': '46b8bcfece086a91-LHR',
+49 silly get     etag: '"570eaef49b9a15aff2bfa7385eba99e0"',
+49 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+49 silly get     'last-modified': 'Sun, 27 May 2018 16:38:18 GMT',
+49 silly get     vary: 'accept-encoding, accept',
+49 silly get     server: 'cloudflare' } ]
+50 verbose etag https://registry.npmjs.org/save from cache
+51 verbose get saving save to C:\Users\USER\AppData\Roaming\npm-cache\registry.npmjs.org\save\.cache.json
+52 verbose correctMkdir C:\Users\USER\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+53 silly rollbackFailedOptional Starting
+54 silly rollbackFailedOptional Finishing
+55 silly runTopLevelLifecycles Finishing
+56 silly install printInstalled
+57 verbose stack Error: ENOENT: no such file or directory, open 'C:\Users\USER\storemanager\-dev'
+57 verbose stack     at Error (native)
+58 verbose cwd C:\Users\USER\storemanager
+59 error Windows_NT 10.0.17134
+60 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "ejs" "--" "save" "-dev"
+61 error node v6.11.1
+62 error npm  v3.10.10
+63 error path C:\Users\USER\storemanager\-dev
+64 error code ENOENT
+65 error errno -4058
+66 error syscall open
+67 error enoent ENOENT: no such file or directory, open 'C:\Users\USER\storemanager\-dev'
+68 error enoent ENOENT: no such file or directory, open 'C:\Users\USER\storemanager\-dev'
+68 error enoent This is most likely not a problem with npm itself
+68 error enoent and is related to npm not being able to find a file.
+69 verbose exit [ -4058, true ]

@@ -1,0 +1,14 @@
+{
+  "charles": {
+    "id": 1,
+    "password": "$2b$10$KLY5w6iKTPjwkyDvjbU4auwbHF9w/2OgcR1I7tOCXkjHVuHx/C89O"
+  },
+  "charlesooo": {
+    "id": 2,
+    "password": "$2b$10$hyTyV8uzcR7JKVgKVtitH.DIGLT1pvOvEQSjJIahgnjhmODWNb6lC"
+  },
+  "admin": {
+    "id": 3,
+    "password": "$2b$10$bd/poFNxNfG8rIW1ijD12u.GVn4VY8il5PuGE9k6y8/ztQNKiPPNq"
+  }
+}

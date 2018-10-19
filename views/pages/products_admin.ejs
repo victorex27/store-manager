@@ -18,10 +18,10 @@
     </div>
     <nav>
       <ul class="grid-container-four">
-        <li class="background-color-primary"> <a href='attendants.html'>Users</a></li>
-        <li class="background-color-primary"> <a href='sales_record_admin.html'>Sales Record</a></li>
-        <li class="background-color-primary"> <a href='products_admin.html'>Products</a></li>
-        <li class="background-color-primary"> <a href='index.html'>Log out</a></li>
+        <li class="background-color-primary"> <a href='/attendants'>Users</a></li>
+        <li class="background-color-primary"> <a href='/sales_record_admin'>Sales Record</a></li>
+        <li class="background-color-primary"> <a href='/products_admin'>Products</a></li>
+        <li class="background-color-primary"> <a href='/index'>Log out</a></li>
         
       </ul>
     </nav>
@@ -33,9 +33,12 @@
 
      <div class="div_center">
       <h5>Create Product</h5>
-        <form id="create_product">
-          <input type="text" id="product_name" placeholder="Name Of Product">
-          <select id="category">
+        <form id="create_product" action="http://localhost:3000/v1/products" method="POST">
+          <input type="text"  name="name" placeholder="Name Of Product">
+          <input type="number"  name="price" placeholder="price">
+          <input type="number"  name="quantity" placeholder="quantity">
+          <input type="number"  name="inventory" placeholder="inventory">
+          <select id="number" name="category">
             <option disabled selected >Select Category</option>
             <option value='1'>Cosmetics</option>
             <option value='2'>Food</option>
